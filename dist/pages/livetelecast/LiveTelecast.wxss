@@ -1,0 +1,154 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[2].use[2]!./node_modules/resolve-url-loader/index.js!./node_modules/@tarojs/webpack5-runner/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[2].use[4]!./src/pages/livetelecast/LiveTelecast.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.LiveTelecast {
+  background-color: #f4f7fa;
+}
+.LiveTelecast .circleControls {
+  position: relative;
+  width: 320rpx;
+  height: 320rpx;
+  overflow: hidden;
+  margin: 80rpx auto;
+  border-radius: 50%;
+  position: relative;
+}
+.LiveTelecast .circleControls .circleBtn {
+  width: 100%;
+  height: 100%;
+}
+.LiveTelecast .circleControls .cBtn {
+  position: absolute;
+  width: 110rpx;
+  height: 209rpx;
+  opacity: 0;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.LiveTelecast .circleControls .cBtn:active {
+  opacity: 1;
+}
+.LiveTelecast .circleControls .left {
+  -webkit-transform: translatex(-320rpx) translateY(55rpx);
+      -ms-transform: translatex(-320rpx) translateY(55rpx);
+          transform: translatex(-320rpx) translateY(55rpx);
+}
+.LiveTelecast .circleControls .top {
+  -webkit-transform: translatex(-215rpx) translateY(-50rpx) rotate(90deg);
+      -ms-transform: translatex(-215rpx) translateY(-50rpx) rotate(90deg);
+          transform: translatex(-215rpx) translateY(-50rpx) rotate(90deg);
+}
+.LiveTelecast .circleControls .right {
+  -webkit-transform: translatex(-110rpx) translateY(55rpx) rotate(180deg);
+      -ms-transform: translatex(-110rpx) translateY(55rpx) rotate(180deg);
+          transform: translatex(-110rpx) translateY(55rpx) rotate(180deg);
+}
+.LiveTelecast .circleControls .bottom {
+  -webkit-transform: translatex(-215rpx) translateY(160rpx) rotate(270deg);
+      -ms-transform: translatex(-215rpx) translateY(160rpx) rotate(270deg);
+          transform: translatex(-215rpx) translateY(160rpx) rotate(270deg);
+}
+.LiveTelecast .circleControls::after {
+  content: "";
+  display: block;
+  width: 120rpx;
+  height: 120rpx;
+  background-color: #f3f7fa;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.LiveTelecast .bottomNav {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  width: 686rpx;
+  height: 201rpx;
+  border-radius: 24rpx;
+  background-color: #fff;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  margin-bottom: 58rpx;
+}
+.LiveTelecast .bottomNav .item {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.LiveTelecast .bottomNav .item .img {
+  width: 64rpx;
+  height: 64rpx;
+  margin-bottom: 8rpx;
+}
+.LiveTelecast .bottomNav .item .text {
+  font-size: 28rpx;
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[2].use[2]!./node_modules/resolve-url-loader/index.js!./node_modules/@tarojs/webpack5-runner/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[2].use[4]!./src/components/video/Video.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.videoContent {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.videoContent .videoContainer {
+  width: 750rpx;
+  height: 412rpx;
+  background-color: #646763;
+}
+.videoContent .videoContainer .video {
+  width: 750rpx;
+  height: 412rpx;
+}
+.videoContent .controls {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 750rpx;
+  height: 147rpx;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  background-color: rgb(7, 25, 38);
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 0 0 24rpx 0;
+}
+.videoContent .controls .item {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 24rpx;
+  color: white;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.videoContent .controls .item .img {
+  width: 56rpx;
+  height: 56rpx;
+  margin-bottom: 8rpx;
+}

@@ -1,0 +1,46 @@
+.warnVideo{
+    width: 375px;
+    height: 206px;
+    background-color: #646763;
+    position: relative;
+    .video{
+        width: 375px;
+        height: 206px;
+    }
+    .videoControls{
+        box-sizing: border-box;
+        width: 375px;
+        height: 44px;
+        padding: 0 13px 0 16px;
+        position: absolute;
+        display: flex;
+        bottom: 0;
+        align-items: center;
+        justify-content: space-between;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+        .img{
+            width: 24px;
+            height: 24px;
+        }
+        .progressBar{
+            display: flex;
+            align-items: center;
+            width: 109px;
+            height: 2px;
+            background-color: rgba(56, 115, 252, 1);
+            position: relative;
+            .btn{
+                position: absolute;
+                transform: translateY(2px);
+            }
+        }
+        .quk{
+            width: 48px;
+            height: 24px;
+        }
+        .eTime,.sTime{
+            font-size: 14px;
+            color: rgba(255, 255, 255, 1);
+        }
+    }
+}

@@ -1,0 +1,107 @@
+.vidioHandle{
+    width: 375px;
+    height: 73.5px;
+    background-color: #001926;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0 0 12px 0; 
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img{
+    width: 28px;
+    height: 28px;
+    margin-bottom: 7px;
+}
+.text{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 1);
+}
+.videoContainer{
+    display: flex;
+    flex-direction: row;
+}
+.videoItems{
+    display: flex;
+    flex-direction: column;
+}
+.videoI{
+    width: 298.5px;
+    height: 104px;
+    display: flex;
+    flex-direction: row;
+    margin: 8px 12px 0;
+    background-color: #fff;
+    padding: 12px 16px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 6px;   //16px
+}
+.left{
+    padding-top: 4px;
+}
+.videoTitle{
+    width: 70px;
+    height: 23.5px;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 9px;
+}
+.videoDate{
+    width: 100px;
+    height: 20.5px;
+    font-size: 14px;
+    color: rgba(140, 140, 140, 1);
+}
+.right{
+    width: 134px;
+    height: 80px;
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.contentImg{
+    width: 134px;
+    height: 80px;
+}
+.videoInfo{
+    z-index: 99;
+    position:absolute;
+    top: 0;
+    width: 134px;
+    height: 19px;
+    font-size: 11px;
+    padding: 0 7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+}
+.sx{
+    width: 14px;
+    height: 14px;
+}
+.videoTime{
+    display: flex;
+    flex-direction: row;
+}
+.line{
+    width: .5px;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 1);
+    margin: 4px 7px;
+}
+.time{
+    color: #ffffff;
+}
+.duration{
+    color: #ffffff;
+}

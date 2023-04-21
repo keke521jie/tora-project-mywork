@@ -1,0 +1,44 @@
+.nav{
+    width: 375px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #fff;
+    .item{
+        display: flex;
+        align-items: center;
+        position: relative;
+        .navitem{
+            color: #000;
+        }
+    }
+    .active{
+            &::after{
+                content: "";
+                display: block;
+                width: 100%;
+                height: 4px;
+                background-color: rgba(56, 115, 252, 1);
+                position: absolute;
+                bottom: -11px;
+                /*  #ifdef  weapp  */
+                bottom: -14px;
+                /*  #endif  */
+            }
+        }
+    .system{
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        color: rgba(0,0,0,1);
+        .img{
+            width: 16px;
+            height: 16px;
+            margin-right: 5.335px;
+            transform: translateY(1px);
+        }
+    }
+}

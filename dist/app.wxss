@@ -1,0 +1,20 @@
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[2].use[2]!./node_modules/resolve-url-loader/index.js!./node_modules/@tarojs/webpack5-runner/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[2].use[4]!./src/app.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*  #ifdef  h5  */
+/*  #endif  */
+/*  #ifdef  weapp  */
+view, image, text {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+page {
+  width: 750rpx;
+  background-color: #f4f7fa;
+  margin: auto;
+}
+/*  #endif  */
+
+@import "./common.wxss";

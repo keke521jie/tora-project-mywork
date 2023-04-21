@@ -1,0 +1,98 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[2].use[2]!./node_modules/resolve-url-loader/index.js!./node_modules/@tarojs/webpack5-runner/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[2].use[4]!./src/pages/playback/PlayBack.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.playback .vidioHandle {
+  width: 750rpx;
+  height: 147rpx;
+  background-color: #001926;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 0 0 24rpx 0;
+}
+.playback .vidioHandle .item {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.playback .vidioHandle .item .img {
+  width: 56rpx;
+  height: 56rpx;
+  margin-bottom: 14rpx;
+}
+.playback .vidioHandle .item .text {
+  font-size: 24rpx;
+  color: rgb(255, 255, 255);
+}
+.playback .videoContainer {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.playback .videoContainer .videoItems {
+  margin-left: 26rpx;
+}
+.playback .videoContainer .videoItems .item {
+  font-size: 28rpx;
+}
+.playback .videoContainer .videoItems .item .videoTime {
+  margin-top: 30rpx;
+}
+.playback .videoContainer .videoItems .item .videos {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  width: 628rpx;
+}
+.playback .videoContainer .videoItems .item .videos .vdo {
+  width: 188rpx;
+  height: 114rpx;
+  position: relative;
+  color: #fff;
+  border-radius: 8rpx;
+  overflow: hidden;
+  margin: 16rpx 16rpx 0 0;
+}
+.playback .videoContainer .videoItems .item .videos .vdo .iconimg {
+  width: 188rpx;
+  height: 114rpx;
+}
+.playback .videoContainer .videoItems .item .videos .vdo .times {
+  position: absolute;
+  top: 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 4rpx 4rpx, 0rpx, 0rpx;
+  background: rgba(0, 0, 0, 0.5);
+  width: 188rpx;
+  height: 48rpx;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 8rpx;
+  font-size: 24rpx;
+}
+.playback .videoContainer .videoItems .item .videos .vdo .times .line {
+  width: 1rpx;
+  height: 22rpx;
+  background-color: rgb(255, 255, 255);
+}
